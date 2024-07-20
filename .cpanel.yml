@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/cultiwat/public_html/production.cultiwate.in/
+    - /bin/cp -R build/* $DEPLOYPATH
